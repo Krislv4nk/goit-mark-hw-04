@@ -117,7 +117,8 @@ img {
                   
 
 .solutions {
-        background-color: var(--main-color,#2E2F42);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+    rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
  }
 
  .hero {
@@ -208,6 +209,14 @@ gap: 24px;
     margin-bottom: 72px;
     
 }
+.cube {
+    border-radius: 4px;
+background: var(--cloud, #F4F4FD);
+}
+.icons-point {
+   margin: 24px 100px
+}
+
 
 .illustration {
 width: calc((100% - 48px) / 3);
@@ -232,11 +241,29 @@ padding: 32px 16px;
     letter-spacing: 0.02em;
     color: var(--main-color,#2E2F42);
 }
+
+
+
+.ellipse::before {
+    content: "";
+display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+}
 .center {
     text-align: center;
 }
 .member {
     background-color: #FFFFFF;
+}
+.customers{
+    display: flex;
+}
+.another {
+    width: 168px;
+    height: 88px;
 }
 .container {
     width: 1158px;
@@ -257,6 +284,12 @@ padding: 32px 16px;
 .down-logo {
     color: var(--cloud,#F4F4FD);
 }
+
+.social-media {
+    display: flex;
+    gap: 16px;
+    margin: 0 auto;
+}
 .mark {
     display: inline-block;
     margin-bottom: 16px;
@@ -272,6 +305,14 @@ padding: 32px 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: var(--cloud,#F4F4FD);
+}
+.footer-media::before {
+    content: "";
+display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
 }
 .portfolio-section {
     padding-top: 96px;
