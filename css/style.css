@@ -376,12 +376,6 @@ fill: var(--super-blue);
     margin-right: 120px;
 }
 
-
-.social-media-list {
-    display: flex;
-    gap: 16px;
-   
-}
 .mark {
     display: inline-block;
     margin-bottom: 16px;
@@ -400,6 +394,11 @@ fill: var(--super-blue);
 }
 .logo-cont {
     margin-right: 120px;
+}
+.social-media-list {
+    display: flex;
+    gap: 16px;
+
 }
 .social-media-paragraph {
 margin-bottom: 16px;
