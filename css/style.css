@@ -375,13 +375,6 @@ fill: var(--super-blue);
 .lp-cont {
     margin-right: 120px;
 }
-
-
-.social-media {
-    display: flex;
-    gap: 16px;
-   
-}
 .mark {
     display: inline-block;
     margin-bottom: 16px;
